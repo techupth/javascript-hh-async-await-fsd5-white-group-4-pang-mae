@@ -2,15 +2,15 @@
 
 let getJohnProfile = () => {
   return new Promise(function (resolve) {
-    setTimeout(
-      () =>
+    setTimeout( () =>
         resolve({
           name: "John",
           age: 20,
           hobbies: ["Coding", "Football"],
-        }),
-      1000
-    );
+        }), 1000 );
   });
 };
 // Start coding here
+getJohnProfile() .then((getjohnyJohny) => {
+console.log(getjohnyJohny);
+});
